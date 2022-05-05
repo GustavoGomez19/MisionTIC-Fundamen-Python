@@ -1,0 +1,21 @@
+import math as m
+
+# Inicio de la definición de las funciones
+def seno(s):
+  respuesta=m.sin(s)
+  return respuesta
+def cos(c):
+  respuesta=m.cos(c)
+  return respuesta
+def tang(t):
+  respuesta=m.tan(t)
+  return respuesta
+
+
+# Fin de la definición de las funciones
+#-----------------------------------------
+grados = float (input("Ingrese un ángulo entre 0 y 360 grados "))
+radianes = m.radians(grados)
+print("Los grados que ingresó equivalen en radianes a: ",radianes)
+print("El seno de los grados ingresados equivale a: ",seno(radianes),"." "El coseno de los grados ingresados equivale a: ",cos(radianes),"." "la tangente de los grados ingresados equivale a: ",tang(radianes))
+
